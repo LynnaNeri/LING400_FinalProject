@@ -12,17 +12,17 @@ $ pip install -r requirements.txt
 ### 2. Prepare dataset
 First, you will need to download the file 'communities_articles.csv' and have it in the same folder as 'wiki_collector.py'.
 ```
-python wiki_collector.py
+$ python wiki_collector.py
 ```
 ### 3. Training the models
 Run the following to train Naive Bayes, SVM, Random Forest, Logistic Regression, and DistilBERT models on pages, paragraphs, and sentences.
 ```
-python wiki_page_classifier.py
-python wiki_page_distilbert.py 
-python wiki_paragraph_classifier.py
-python wiki_paragraph_distilbert.py 
-python wiki_sentence_classifier.py
-python wiki_sentence_distilbert.py 
+$ python wiki_page_classifier.py
+$ python wiki_page_distilbert.py 
+$ python wiki_paragraph_classifier.py
+$ python wiki_paragraph_distilbert.py 
+$ python wiki_sentence_classifier.py
+$ python wiki_sentence_distilbert.py 
 ```
 
 # References
